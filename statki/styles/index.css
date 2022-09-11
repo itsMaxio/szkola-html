@@ -1,0 +1,271 @@
+/*=============== settings ===============*/
+
+@import "settings.css";
+@import url('https://fonts.googleapis.com/css2?family=Rubik');
+
+/*=============== END settings END ===============*/
+
+body{
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
+  width: auto;
+  height: auto;
+}
+
+header{
+  margin-right: 20px;
+
+  font-size: 100px;
+}
+
+nav{
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+nav a{
+  padding: 10px;
+  margin: 0 20px;
+
+  font-size: 30px;
+  font-weight: 900;
+}
+
+/* INDEX.HTML */
+
+section{
+  width: 100%;
+}
+
+section h1{
+  font-size: 40px;
+}
+
+section h3{
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+section img{
+  margin: 15px;
+
+  border: 4px solid var(--second-color);
+  border-radius: 28px;
+}
+
+ul{
+  padding-top: 20px;
+
+  font-size: 25px;
+  font-weight: 600;
+}
+
+ol{
+  padding-left: 40px;
+}
+
+li a{
+  color: var(--second-color);
+}
+
+.list{
+  width: 50%;
+  padding: 20px;
+  margin-top: 50px;
+
+  border: 8px solid var(--second-bg-color);
+  background-color: var(--second-bg-color);
+  border-radius: 16px;
+
+  color: var(--second-font-color);
+}
+
+/* KONIEC INDEX.HTML */
+
+/* WYMIARY.HTML */
+
+table {
+  width: 70%;
+  height: 300px;
+
+  border: 8px solid var(--second-color);
+
+  text-align: center;
+  border-spacing: 0;
+}
+table td, table th {
+  border: 1px solid var(--second-color);
+}
+table tbody td {
+  font-size: 20px;
+}
+
+table tbody th{
+  font-size: 30px;
+}
+
+.ships{
+  margin-top: 40px;
+}
+
+.ships div{
+  margin: 20px;
+  padding: 15px;
+
+  border: 4px solid var(--second-color);
+  border-radius: 16px
+}
+
+.ships div h2{
+  margin-bottom: 10px;
+
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+/* KONIEC WYMIARY.HTML */
+
+/* WYBIERZ.HTML */
+
+fieldset{
+  padding: 10px;
+  margin-bottom: 20px;
+
+  border-color: var(--second-color);
+  font-size: 25px;
+}
+
+fieldset input{
+  margin: 0 5px 0 10px;
+
+  background-color: red;
+}
+fieldset input:active{
+  background-color: red;
+}
+
+select{
+  padding: 5px;
+  margin-bottom: 20px;
+
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
+  font-size: 20px;
+
+  border: 6px solid var(--second-color);
+
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none; /*reszta */
+}
+
+select::-webkit-scrollbar{
+  display: none;
+}
+
+/* KONIEC WYBIERZ.HTML */
+
+/* LOGIN.HTML */
+
+form{
+  padding: 20px;
+
+  background-color: var(--second-bg-color);
+  color: var(--second-font-color);
+
+  border: 8px solid var(--second-bg-color);
+  border-radius: 16px
+}
+
+form h1{
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+form label{
+  margin-bottom: 5px;
+
+  font-size: 30px;
+}
+
+form input{
+    padding: 11px;
+    margin-bottom: 20px;
+
+    font-size: 27px;
+    
+    background-color: inherit;
+    color: var(--second-font-color);
+
+    border: 8px solid var(--second-color);
+    border-radius: 50px;
+}
+
+form input:focus {
+  outline: none;
+}
+
+form div button{
+  padding: 10px;
+  margin: 5px;
+
+  background-color: inherit;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* KONIEC LOGIN.HTML */
+
+
+footer{
+  padding: 10px;
+  font-size: 20px;
+}
+
+
+
+/* flex row */
+.flex-row {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+/* flex row */
+
+/* flex column */
+.flex-column {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+/* flex column */
+
+/* button */
+.button {
+  border: 4px solid var(--second-color);
+  border-radius: 28px;
+
+  cursor: pointer;
+}
+/* button */
+
+.button:hover {
+  transition: all 0.05s !important;
+	background-color:var(--second-color);
+}
+
+.grow:hover {
+  transition: all 0.05s !important;
+  transform: scale(1.05);
+}
+
+.button:active {
+  transition: all 0.05s !important;
+
+  transform: scale(0.95);
+}

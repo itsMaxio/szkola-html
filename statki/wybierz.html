@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wybierz swój statek</title>
+    <link href="styles/index.css" rel="stylesheet" type="text/css" />
+</head>
+<body class="flex-column">
+        <nav class="flex-row">
+            <a class="button grow" href="./index.html">STRONA GŁÓWNA</a>
+        </nav>
+<form class="flex-column" action="mailto:test@text.xd">
+    <h1>Podaj swoje nazwisko i imie prosze</h1>
+
+    <input type="text" name="nazwisko" value="" maxlength="5" size="10" placeholder="Wpisz tu coś">
+    <fieldset>
+        <legend>Typy okrętów wojennych</legend>
+        <input type="radio" name="typ" value="lotniskowiec">Lotniskowiec 
+
+        <input type="radio" name="typ" value="pancernik">Pancernik
+
+        <input type="radio" name="typ" value="krazownik">Krążownik
+        
+        <input type="radio" name="typ" value="niszczyciel">Niszczyciel
+
+        <input type="radio" name="typ" value="fregata">Fregata
+
+    </fieldset> 
+    <select name="Okręty wojenne" size="8" multiple>
+        
+        <optgroup label="Typ pancernika Bismarck">
+            <option>Bismarck</option>
+            <option>Tirpitz</option>
+        </optgroup>
+
+        <optgroup label="Typ pancernika Deutschland">
+            <option>Deutschland</option>
+            <option>Hannover</option>
+            <option>Pommern</option>
+            <option>Schlesien</option>
+            <option>Schleswig-Holstein</option>
+        
+        </optgroup>
+                
+    </select>
+    <div class="flex-row">
+        <button class="button grow" type="submit" name="przycisk1">Wyślij formularz</button>
+        <button class="button grow" type="reset" name="obrazek"><img src="./reset.png" alt="reset" height="64px"></button>
+    </div>
+</form>
+<footer>Strona made by "numer 28 4i"</footer>
+</body>
+</html>

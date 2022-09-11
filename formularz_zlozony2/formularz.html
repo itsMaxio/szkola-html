@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formularz zlozony</title>
+  </head>
+  <body bgcolor="orange">
+      <form action="mailto:test@test.xd">
+          <b><font size="48">Napisz do nas!</font></b><br>
+          
+          <textarea name="blok" cols="40" rows="10">Wprowadź swój tekst</textarea>
+
+          <br>
+          <br>
+          
+          <button type="submit" name="przycisk1" style="font:23pt arial; background:red;">Wyślij formularz</button>
+
+          <button type="reset" name="obrazek"><img src="../grafika/reset.svg" alt="nie wysyłaj"> Nie wysylaj</button><br><br><br>
+        
+          <select name="Języki obce" size="10" multiple>
+        
+            <optgroup label="Język Słowiańskie">
+                <option>czeskie</option>
+                <option selected="selected">polski</option>
+                <option >ruski</option>
+                <option >szwabski</option>
+        
+            </optgroup>
+          
+            
+                <optgroup label="Język romańskie">
+                <option>francusku</option>
+                <option selected="selected">rumuński</option>
+                <option >włoski</option>
+                <option >hiszpański</option>
+            
+            </optgroup>
+                    
+            </optgroup>
+                    
+                <optgroup label="Język bałtycki">
+                <option>estoński</option>
+                <option selected="selected">łotewski</option>
+
+            </optgroup>
+
+        </select>
+        <br><br>
+        <input type="submit" value="wyślij">
+        <input type="reset" value="zrezygnuj">
+      </form>
+<br><br>
+      <form method="post">
+          <label>Email
+              <input type="email" placeholder="Wpisz adres email">
+        </label>
+        <br>
+        <label>Szukaj
+            <input type="search" placeholder="Wpisz szukany tekst">
+        </label>
+        <br>
+        <label>Wybierz wartość od 1 do 5
+            <input type="range" name="wybieranie" min="1" max="5" value="1">lub
+            <input type="number" name="wybieranie" min="1" max="5" value="1">
+            <br>
+        </label>
+        <br>
+        <label>Wybierz kolor 
+            <input type="color">
+        </label><br>
+        <label for="Wprowadź datę urodzenia">
+            <input type="date" max="2022-12-12">
+        </label>
+
+      </form>
+  </body>
+</html>

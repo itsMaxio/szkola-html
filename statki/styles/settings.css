@@ -1,0 +1,29 @@
+ html{
+  --main-bg-color: #1d1f1e;
+  --second-bg-color: #ffded3;
+
+  --main-font-color: #fbfdfd;
+  --second-font-color: #1C1C1C;
+
+  --second-color: #ff4a57;
+  --grey: #4c514f;
+}
+
+*{
+  box-sizing: border-box;
+ 
+  margin: 0 0;
+  padding: 0 0;
+
+  font-family: 'Rubik', sans-serif;
+  text-shadow: 4px 4px 2px #0000;
+  
+  color: inherit;
+  font-size: inherit;
+  text-decoration: none;
+
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+

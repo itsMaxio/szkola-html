@@ -1,0 +1,47 @@
+@import "settings.css";
+
+body{
+    flex-direction: column;
+
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+    width: auto;
+    height: auto;
+}
+
+
+.galeria{
+    flex-direction: row;
+    border: solid var(--second-color) 5px;
+    border-radius: 20px;
+}
+
+.kolumna{
+    flex-direction: column;
+}
+
+h1{
+    font-size: 70px;
+    padding: 10px;
+}
+
+img{
+    height: 250px;
+    width: 500px;
+    margin: 20px;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    padding: 10px;
+    font-size: 20px;
+  }
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

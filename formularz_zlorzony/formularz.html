@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formularz zlozony</title>
+  </head>
+  <body bgcolor="orange">
+      <form action="mailto:test@test.xd">
+          <b>Formularz zlozony</b>
+          <p><hr></p>
+          
+          <b>podaj swoje nazwisko i imie prosze</b>
+
+          <input type="text" name="nazwisko" value="" maxlength="5" size="10">
+          <br>
+          <br>
+          
+          <br><font size="4">zaznacz wykształcenie</font></br>
+          <input type="radio" name="grupa_opcji" value="podstawowe">podstawowe<br>
+          <input type="radio" name="grupa_opcji" value="srednie">srednie<br>
+          <input type="radio" name="grupa_opcji" value="wyzsze">wyzsze<br>
+          
+          <br>
+
+          <fieldset>
+              <legend>zainteresowania</legend>
+              <input type="checkbox" name="zainteresowania" value="motoryzacja"> motoryzacja
+              <br>
+              <br>
+
+              <input type="checkbox" name="zainteresowania" value="sport">sport
+              <br>
+              <br>
+
+              <input type="checkbox" name="zainteresowania" value="muzyka">muzyka
+              <br>
+              <br>
+              
+              <input type="checkbox" name="zainteresowania" value="gaming">gaming
+              <br>
+              <br>
+
+              <br>
+              <br>
+
+          </fieldset>
+          <input type="checkbox" name="opcje" maxlength="1"><b>zgadzam sie na przetwarzanie moich danych osobowych</b><br>
+          <button type="submit" name="przycisk1" style="font:12pt arial; background:red;">wyslij formularz</button>
+          <button type="reset" name="obrazek"><img src="../grafika/reset.svg" alt="zgadzam sie" height="64px"></button>
+
+      </form>
+  </body>
+</html>

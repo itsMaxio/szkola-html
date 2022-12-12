@@ -1,48 +1,62 @@
-html {
-    --main-bg-color: #1d1f1e;
-    --main-font-color: #fbfdfd;
-    --second-color: #ff4a57;
-    --grey:#4c514f;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0 0;
-    padding: 0 0;
-    font-family: 'Rubik', sans-serif;
-}
+@import url(redundancja.css);
 
 body {
     flex-direction: column;
     background-color: var(--main-bg-color);
     color: var(--main-font-color);
-    
 }
 
-.glowna{
+.glowna {
     height: 100vh;
     width: auto;
     background-color: var(--second-color);
     background-image: linear-gradient(180deg, var(--second-color) 0%, var(--main-bg-color) 100%);
 }
 
-.glowna h1{
+.naglowek {
+    height: auto;
+}
+
+.glowna a {
+    font-size: 30px;
+    color: var(--main-font-color);
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    border: 5px solid var(--main-font-color);
+    border-radius: 28px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.glowna a:hover {
+    transform: scale(1.1);
+}
+
+.glowna .index{
+    font-size: 35px;
+    border-width: 8px;
+    border-color: var(--main-bg-color);
+    color: var(--main-bg-color);
+}
+
+.glowna h1 {
     font-family: 'Mountains of Christmas', cursive;
     font-size: 170px;
     text-shadow: 0px 0px 7px var(--main-bg-color);
+    height: 90vh;
 }
 
-.dwa{
+.dwa {
     height: 110vh;
     width: auto;
     background-color: var(--main-bg-color);
 }
 
-.lewa{
+.lewa {
     width: 50%;
 }
 
-.lewa img{
+.lewa img {
     height: 800px;
     width: auto;
     border: transparent;
@@ -50,10 +64,11 @@ body {
     box-shadow: 0px 0px 20px black;
 }
 
-.prawa{
+.prawa {
     width: 50%;
 }
-.prawa div{
+
+.prawa div {
     margin: 70px;
     padding: 20px;
     background-color: var(--grey);
@@ -62,28 +77,15 @@ body {
     box-shadow: 0px 0px 20px black;
 }
 
-.prawa h1{
+.prawa h1 {
     font-size: 100px;
     font-family: 'Mountains of Christmas', cursive;
 }
 
-.prawa p{
+.prawa p {
+    height: 100%;
     font-size: 30px;
     margin-top: 30px;
     text-align: center;
 }
 
-.flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.kolumna{
-    flex-direction: column;
-}
-
-footer {
-    padding: 10px;
-    font-size: 20px;
-}

@@ -1,0 +1,35 @@
+html {
+    --main-bg-color: #1d1f1e;
+    --main-font-color: #fbfdfd;
+    --second-color: #ff4a57;
+    --grey: #4c514f;
+    --light-grey: #d9d9d9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Rubik', sans-serif;
+    scroll-behavior: smooth;
+}
+
+a{
+    transition: all 0.3s;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kolumna {
+    flex-direction: column;
+}
+
+footer {
+    padding: 10px;
+    font-size: 20px;
+}

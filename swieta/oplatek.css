@@ -1,0 +1,79 @@
+@import url(redundancja.css);
+
+body {
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+}
+h1 {
+    text-align: center;
+    color: #ff4a57;
+}
+
+.glowna {
+    height: 100vh;
+    width: auto;
+    background-color: #ff4a57;
+    background-color: var(--main-bg-color);
+}
+
+
+.glowna a {
+    font-size: 30px;
+    color: var(--main-font-color);
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    border: 5px solid var(--main-font-color);
+    border-radius: 28px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.glowna a:hover {
+    transform: scale(1.2);
+}
+
+.glowna .index{
+    font-size: 35px;
+    border-width: 8px;
+    border-color: var(--second-color);
+    color: var(--second-color);
+}
+
+.dwa {
+    height: 100vh;
+    width: auto;
+    background-color: var(--main-bg-color);
+}
+
+.lewa {
+    width: 45%;
+}
+
+.lewa img {
+    height: 700px;
+    width: auto;
+    border: transparent;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.prawa {
+    width: 55%;
+}
+
+.prawa div {
+    margin: 70px;
+    padding: 20px;
+    border: transparent;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.prawa p {
+    height: 100%;
+    font-size: 40px;
+    margin-top: 30px;
+    margin: 80px;
+    text-align: center;
+}

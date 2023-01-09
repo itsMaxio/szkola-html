@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+
+        #zdj{
+            width: 600px;
+            height: 600px;
+            border: 10px;
+            border-color: blue;
+            border-style: solid;
+        }
+    </style>
+
+    <script>
+
+        function wcisniencie(){
+            document.getElementById("zdj").src="lis.png";
+            document.getElementById('zdj').style.borderColor="red";
+        }
+
+        function puszczenie(){
+            open("https://allegro.pl/",);
+        }
+
+        function najechanie(){
+            document.getElementById('zdj').src="sowa.png";
+        }
+
+        function odjechanie(){
+            document.getElementById('zdj').src="kot.png";
+        }
+    </script>
+</head>
+<body>
+    <img src="kot.png" id="zdj" onMouseDown="wcisniencie()" onMouseUp="puszczenie()" onMouseOver="najechanie()" onMouseOut="odjechanie()">
+</body>
+</html>
